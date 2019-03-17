@@ -1,0 +1,88 @@
+body,html{
+    height:100%;
+}
+body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    background-position: center;
+
+}
+* {
+    box-sizing: border-box;
+  } 
+  
+.container div{
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header{
+margin-top: 2%;
+width:10%;
+height:10%;
+
+}
+a{
+    
+    color:white;
+    padding: 2px;
+   
+}
+.row div{
+display:flex;
+flex-wrap: wrap;
+background-color: rgba(187, 196, 6, 0.281);
+margin: 2%;
+}
+
+.row h3{
+color: #824CA7;
+
+}
+.jumbotron {
+
+    background-color: rgba(168, 130, 193, 0.735);
+    color:white;
+    margin-top: 2%;
+}
+
+footer{
+   height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer.container h4{
+    color: #824CA7;
+
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
